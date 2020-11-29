@@ -14,27 +14,45 @@ Download from https://bhpan.buaa.edu.cn:443/link/2BBB146DCBECEAD19C7872DACC643BB
 ### Folder structure
 
 │  .gitignore
+
 │  dataset.py
+
 │  LICENSE
+
 │  main.py
+
 │  maxregiongrowth.py
+
 │  myloss_wce.py
+
 │  nii.py
+
 │  README.md
+
 │  wnet.pth
+
 │  wnet.py
+
 │
+
 ├─test
+
 │  ├─000_1
+
 │  ├─001_1
 
 │  ......
 
 └─train
+
 │  │  LICENSE
+
 │  │
+
 │  ├─000_1
+
 │  ├─001_1
+
 │  ......
 
 ### Train
