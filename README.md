@@ -9,7 +9,6 @@ Pytorch 1.0.1+
 ### Dataset
 
 Download from https://bhpan.buaa.edu.cn:443/link/2BBB146DCBECEAD19C7872DACC643BB9
-（Available until：2021-12-31 23:59）
 
 ### Folder structure
 
@@ -57,8 +56,9 @@ Download from https://bhpan.buaa.edu.cn:443/link/2BBB146DCBECEAD19C7872DACC643BB
 
 ### Train
 
-Run main.py and insert "1".
+Run main.py and choose "1".K-fold cross validation is used in the training. During the training process, the program will output the dice value on each structure. The trained model file will be saved in the automatically created "model" folder
 
 ### Test
 
-Run main.py and insert "2".
+Run main.py and choose "2". The results of automatic segmentation will be generated to the same file as the data.
+
