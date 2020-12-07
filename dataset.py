@@ -55,7 +55,7 @@ class Make_Dataset(data.Dataset):
 
         # if self.transform is not None:
         # image = image.astype(np.uint8)
-        image = (image/image.max()).astype(np.uint8)
+        image = (image/image.max()).astype(np.float32)
         image = self.transform(image)
         height, width, depth = image.shape
         image = image.reshape(1, width, depth,height)
